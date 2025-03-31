@@ -1,0 +1,52 @@
+/* Borderless Search Box Styles */
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .borderless-search {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    background: transparent;
+  }
+  
+  .borderless-search::placeholder {
+    color: #888;
+  }
+  
+  .search-button {
+    border: none;
+    background: #f8f8f8;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Hover and Focus Effects */
+  .search-container:hover {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .borderless-search:focus {
+    box-shadow: none;
+  }
+  
+  .search-button:hover {
+    background: #f0f0f0;
+  }
